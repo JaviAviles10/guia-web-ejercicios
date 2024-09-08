@@ -1,0 +1,164 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f0f0, #d1d1d1);
+    color: #333;
+}
+
+
+#main-nav {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+#main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#main-nav a:hover {
+    text-decoration: underline;
+}
+
+
+#main-header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+
+.about-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    color: #2980b9;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.image-wrapper {
+    max-width: 600px;
+    margin: auto;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.characters-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.characters-section h2 {
+    font-size: 2em;
+    color: #27ae60;
+    margin-bottom: 30px;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.character-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.character-card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+
+.episodes-section {
+    padding: 40px 20px;
+    background-color: #dff9fb;
+    text-align: center;
+}
+
+.episodes-section h2 {
+    font-size: 2em;
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.episodes-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.episodes-section li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+
+#main-footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+}
+
+#main-footer a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+#main-footer a:hover {
+    text-decoration: underline;
+}
